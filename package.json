@@ -1,0 +1,30 @@
+{
+  "name": "rmuif",
+  "version": "1.0.0",
+  "description": "CLI for your RMUIF app",
+  "keywords": [
+    "rmuif"
+  ],
+  "homepage": "https://rmuif.com",
+  "bugs": {
+    "url": "https://github.com/rmuif/cli/issues",
+    "email": "phoqe@phoqe.dev"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Linus Långberg",
+    "email": "phoqe@phoqe.dev",
+    "url": "https://phoqe.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmuif/cli.git"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "commander": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^8.9.2",
+    "inquirer": "^7.0.4"
+  }
+}
