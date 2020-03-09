@@ -4,11 +4,9 @@ const Table = require("cli-table");
 
 require("dotenv").config();
 
-const package = require("../package");
-
 admin.initializeApp({
   credential: admin.credential.applicationDefault(),
-  databaseURL: package.config.firebase.databaseUrl
+  databaseURL: process.env.FIREBASE_DATABASE_URL
 });
 
 const auth = admin.auth();
