@@ -26,5 +26,10 @@
     "dotenv": "^8.2.0",
     "firebase-admin": "^8.9.2",
     "inquirer": "^7.0.4"
+  },
+  "scripts": {
+    "roles": "node roles",
+    "user": "node user",
+    "users": "node users"
   }
 }
