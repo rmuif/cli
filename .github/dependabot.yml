@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "00:00"
+    timezone: Europe/Stockholm
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: cli-table
+    versions:
+    - 0.3.4
+    - 0.3.5
+  - dependency-name: commander
+    versions:
+    - 7.0.0
+    - 7.1.0
+  - dependency-name: firebase-admin
+    versions:
+    - 9.4.2
+    - 9.5.0
+  - dependency-name: inquirer
+    versions:
+    - 7.3.3
