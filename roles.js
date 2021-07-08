@@ -99,11 +99,10 @@ program
   });
 
 program
-  .command("set <uid> <roles>")
+  .command("set <uid> <roles...>")
   .alias("update")
   .description("sets the roles for a user, will overwrite any existing roles")
   .action((uid, roles) => {
-    roles = roles.split(",");
 
     if (program.email) {
       const email = uid;
